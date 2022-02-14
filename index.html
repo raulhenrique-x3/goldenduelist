@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balthazar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap" rel="stylesheet">
+    <title>GOLDEN DUELIST</title>
+</head>
+<body>
+    <header class="headerCont">
+        <div class="selectBox">
+            <h1 style="font-family: 'Balthazar', serif; text-shadow: 2px 2px 4px #000000">GOLDEN DUELIST</h1>
+            <a href="#">Home</a>
+            <a href="#">Metagame</a>
+            <a href="#">Tournament</a>
+            <a href="#">Master Duel</a>
+            <a href="#" class="loginButton">Login / Register</a>
+            <img src="./Imagens/streamline-icon-interface-search@48x48.png" alt="search-icon" class="searchButtom" style="width: 20px; height: 20px; margin-left: 40px; cursor: pointer;" onclick="onClick()" onmouseout="onMouseOut()">
+            <input type="text" placeholder="Search..." class="searchBar" style="margin-left: 20px; padding: 5px; border: none; box-shadow: 0px 1px black;">
+        </div>
+    </header>
+    <div class="containerCarousel">
+        <div class="sectCont">
+            <div class="imgsCarousel">
+                <div class="imgItem hover" style="background-image: url(./Imagens/Lord.png);" onmouseover="onOver0('.lordH3')" onmouseout="onOut0('.lordH3')">
+                    <h3 class="lordH3" style="text-align: center; color: white; text-shadow: 2px 2px 8px #000000; font-family: 'Mukta', sans-serif; margin-top: 60px;">
+                        Why do we use it?
+                        It is a long established fact that a reader will 
+                        be distracted by the readable content of a page when looking at its layout. 
+                        The point of using Lorem Ipsum is that it has a more-or-less normal distribution 
+                        of letters, as opposed to using 'Content here, content here', 
+                        making it look like readable English. Many desktop publishing 
+                        packages and web page editors now use Lorem Ipsum as their 
+                        default model text, and a search for 'lorem ipsum' will 
+                        uncover many web sites still in their infancy. Various 
+                        versions have evolved over the years, sometimes by accident, 
+                        sometimes on purpose 
+                        (injected humour and the like).                        
+                    </h3>
+                </div>
+                <div class="imgItem hover" style="background-image: url(./Imagens/Aleister.png);" onmouseover="onOver1('.aleisterH3')" onmouseout="onOut1('.aleisterH3')">
+                    <h3 class="aleisterH3" style="text-align: center; color: white; text-shadow: 2px 2px 4px #000000; font-family: 'Mukta', sans-serif; margin-top: 60px;">What 
+                        is Lorem Ipsum?
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type 
+                        specimen book. It has survived not only five centuries, but also the leap into 
+                        electronic typesetting, remaining essentially unchanged. It was popularised in 
+                        the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                        and more recently with desktop publishing software like Aldus PageMaker 
+                        including versions of Lorem Ipsum.
+                        </h3>
+                </div>
+                <div class="imgItem hover" style="background-image: url(./Imagens/Shuraig.jpg);" onmouseover="onOver2('.omenH3')" onmouseout="onOut2('.omenH3')">
+                    <h3 class="omenH3" style="text-align: center;  color: white; text-shadow: 2px 2px 4px #000000; font-family: 'Mukta', sans-serif; margin-top: 60px;">
+                    Where can I get some?
+                    There are many variations of passages of Lorem Ipsum available, 
+                    but the majority have suffered alteration in some form, by injected 
+                    humour, or randomised words which don't look even slightly believable. 
+                    If you are going to use a passage of Lorem Ipsum, you need to be sure 
+                    there isn't anything embarrassing hidden in the middle of text. All the
+                    Lorem Ipsum generators on the Internet tend to repeat predefined chunks 
+                    as necessary, making this the first true generator on the Internet. 
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="./Javascript/script.js"></script>
+</body>
+</html>
