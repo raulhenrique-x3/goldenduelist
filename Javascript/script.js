@@ -6,7 +6,7 @@ window.onload = function onLoad(){
     let onLoad3 = document.querySelector('.searchBar').style.visibility = "hidden";
 }
 
-//Função para mostrar a barra de pesquisa quando clicar na lupa//
+//Função para mostrar a barra de pesquisa quando clicar na lupa e para ocultar quando retirar o cursor do mouse//
 function onClick(){
     let onClick = document.querySelector('.searchBar').style.visibility = 
         "visible";
