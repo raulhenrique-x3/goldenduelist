@@ -6,6 +6,6 @@ In the future I will increase more Js functions in the project and also a functi
 Responsiveness will be added in the future and records will be made by README.md
 
 02/19/2022
-
-Creating a "carousel" on the main page with images made in Photoshop CC.
-Change initial layout of mainpage
+1. I created an image using Photoshop for the design of the content section;
+2. I added a section to separate the contents of the site in order to maximize the versatility of content access;
+3. I created content with information that can later be accessed.
