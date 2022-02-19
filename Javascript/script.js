@@ -23,11 +23,12 @@ function onOver0(){
     let onOver0 = document.querySelector('.lordH3').style.visibility =
         "visible";
     }
-
+    
 function onOut0(){
     let onOut0 = document.querySelector('.lordH3').style.visibility =
     "hidden";
 }
+
 //Aqui acaba a função da primeira imagem//
 function onOver1(){
     let onOver1 = document.querySelector('.aleisterH3').style.visibility =

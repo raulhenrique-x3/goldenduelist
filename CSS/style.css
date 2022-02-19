@@ -3,33 +3,38 @@
     padding: 0;
     margin: 0;
 }
-
+/*Conteúdo do HEADER*/
 .headerCont{
     background-color: rgb(255, 255, 255, 0.9);
-    width: 100%;
+    min-width: 100vw;
+    min-height: auto;
     border-bottom-style: groove;
     font-family: 'Mukta', sans-serif;
-    
 }
 
 .selectBox{
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 1vw;
     color: gold;
 }
 
 .selectBox a{
-    margin-left: 50px;
+    margin-left: 5vw;
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 1.3rem;
 }
+/*FIM DO CONTÉUDO DO HEADER*/
 
+/*Conteúdo do Body*/
 body{
-    background-image: linear-gradient(rgb(255, 255, 255),rgb(0, 0, 0));
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+    
 }
 
+/*Primeira seção de conteúdos*/
 .sectCont p, h2{
     font-family: 'Mukta', sans-serif;
 }
@@ -37,22 +42,20 @@ body{
 .containerCarousel{
     display: flex;
     justify-content: center;
-    align-content: center;
     height: 80vh;
-    width: 100%;
-    background-color: white;
+    width: 100vw;
+    background-color: #ffffff;
 }
 
 .sectCont{
-    flex: none;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .imgsCarousel{
-    width: 100vw;
     height: 100vh; 
     display: flex;
     transition: all ease 2s;
+    
 }
 
 .imgItem{
@@ -65,14 +68,67 @@ body{
 }
 
 .hover:hover{
-    width: 150%;
+    width: 150vw;
     transition: all ease 2s;
+    
 }
 
 .lordH3, .aleisterH3, .omenH3{
     background-color: rgb(0, 0, 0, 0.7);
-    border-radius: 5px;
     max-width: 100vw;
-    padding: 30px;
-    
+    padding: 3vw;
+    text-align: center;
+    color: #ffffff; 
+    text-shadow: 2px 2px 8px #000000; 
+    font-family: 'Mukta', sans-serif; 
+    margin-top: 30vw;
+}
+
+/*Segunda seção de conteúdos*/
+
+.titleReport{
+    margin-top: 5vh;
+    margin-left: 5%;
+    font-size: 3rem;
+    font-family: 'Mukta', sans-serif;
+}
+
+section{
+    display: flex;
+    margin-left: 2%;
+    max-width: 100vw;
+
+}
+/*Aqui vem a box com informações*/
+
+.sectionInfo1{
+    display: flex;
+    justify-content: center;
+    border: #00000033 1px solid;
+    width: 60vw;
+    background-color: #ffffff;
+    margin-top: 5vh;
+}
+
+.metaCallImg{
+    width: 50vw;
+    margin-top: 5vh;
+    margin-left: 2%;
+    box-shadow: 3px 3px #000000;
+}
+.metaCallImg:hover{
+    width: 52vw;
+    cursor: pointer;
+    transition: 1s ease;
+}
+/*Aqui inicia as informações da box*/
+.boxTitle{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Mukta', sans-serif;
+}
+.boxDescri{
+    font-size: 1rem;
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
 }
