@@ -9,3 +9,6 @@ Responsiveness will be added in the future and records will be made by README.md
 1. I created an image using Photoshop for the design of the content section;
 2. I added a section to separate the contents of the site in order to maximize the versatility of content access;
 3. I created content with information that can later be accessed.
+
+02/21/2022
+1. Add new div to social media and latest news to improve a navigation in website

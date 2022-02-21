@@ -14,6 +14,7 @@
 
 .selectBox{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 1vw;
     color: gold;
@@ -25,16 +26,26 @@
     color: black;
     font-size: 1.3rem;
 }
-/*FIM DO CONTÉUDO DO HEADER*/
+/*************************************************/
+
 
 /*Conteúdo do Body*/
 body{
-    background-color: #f1f1f1;
+    background-color: #e2e2e2;
     overflow-x: hidden;
     
 }
 
 /*Primeira seção de conteúdos*/
+
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 2%;
+    max-width: 100vw;
+}
+
 .sectCont p, h2{
     font-family: 'Mukta', sans-serif;
 }
@@ -93,17 +104,16 @@ body{
     font-family: 'Mukta', sans-serif;
 }
 
-section{
-    display: flex;
-    margin-left: 2%;
-    max-width: 100vw;
 
-}
+/*************************************************/
+
+
 /*Aqui vem a box com informações*/
 
 .sectionInfo1{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     border: #00000033 1px solid;
     width: 60vw;
     background-color: #ffffff;
@@ -131,4 +141,57 @@ section{
     font-size: 1rem;
     font-family: 'Mukta', sans-serif;
     text-align: center;
+}
+
+/*************************************************/
+
+
+/*Aqui ficam os icones de media sociais e alguns outros conteúdos de acesso rápido*/
+.sectSocialMedia{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    background-color: #fafafa;
+    margin-top: 5vh;
+    border: #00000033 1px solid;
+}
+
+.iconsBox{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2vh;
+}
+
+.mediaIcon :hover{
+    box-shadow: 2px 2px rgb(0, 0, 0);
+    width: 150%;
+}
+/*************************************************/
+
+/*Seção de LatestNews*/
+.latestNews{
+    display: flex;
+    width: 25vw;
+    flex-direction: column;
+}
+
+.newsImgs{
+    margin-left: 7.5vw;
+    width: 15vw;
+    border-radius: 20px;
+}
+
+.pFirstNews{
+    text-align: center; 
+    font-family: 'Mukta', sans-serif; 
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-left: 7.5vw;
+}
+
+.pFirstNewsDesc{
+    text-align: center; 
+    font-family: 'Mukta', sans-serif; 
+    font-size: 1rem;
+    margin-left: 7.5vw;
 }
