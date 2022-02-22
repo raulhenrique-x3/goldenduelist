@@ -12,3 +12,6 @@ Responsiveness will be added in the future and records will be made by README.md
 
 02/21/2022
 1. Add new div to social media and latest news to improve a navigation in website
+
+02/22/2022
+1. I introduced the site's media query by creating a new css file aimed only at the site's responsiveness.

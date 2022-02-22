@@ -1,0 +1,66 @@
+@media (max-width: 912px){
+    *{
+        overflow-x: hidden;
+    }
+    .selectBox a{
+        display: none;
+    }
+    .deviceDef{
+        display: none;
+    }
+
+    /*Primeira seção de conteúdos*/
+
+    section{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .containerCarousel{
+        height: 70vh;
+    }
+
+
+    .infoBox{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .sectionInfo1{
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .metaCallImg{
+        width: 100vw;
+        margin-left: 0;
+        margin-top: 1vh;
+    }
+
+    .metaCallImg:hover{
+        width: 100vw;
+    }
+
+    .lordH3, .aleisterH3, .omenH3{
+        margin-top: 63vh;
+    }
+
+    /*Início da seção de informações*/
+
+    .titleReport{
+        margin-top: 1vh;
+        text-align: center;
+        font-size: 3rem;
+        font-family: 'Mukta', sans-serif;
+    }
+
+    
+    /*Aqui ficam os icones de media sociais e alguns outros conteúdos de acesso rápido*/
+
+    .sectSocialMedia{
+        display: none;
+    }
+}
