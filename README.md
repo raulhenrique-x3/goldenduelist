@@ -15,3 +15,6 @@ Responsiveness will be added in the future and records will be made by README.md
 
 02/22/2022
 1. I introduced the site's media query by creating a new css file aimed only at the site's responsiveness.
+
+02/22/2022
+1. I fixed some bugs related to the width of the site elements. Some elements were popping on the screen and I was finally able to fix them.

@@ -4,10 +4,12 @@
     margin: 0;
 }
 /*Conteúdo do HEADER*/
+header{
+    max-width: 100vw;
+}
+
 .headerCont{
     background-color: rgb(255, 255, 255, 0.9);
-    min-width: 100vw;
-    min-height: auto;
     border-bottom-style: groove;
     font-family: 'Mukta', sans-serif;
 }
@@ -32,8 +34,7 @@
 /*Conteúdo do Body*/
 body{
     background-color: #e2e2e2;
-    overflow-x: hidden;
-    
+
 }
 
 /*Primeira seção de conteúdos*/
@@ -54,7 +55,7 @@ section{
     display: flex;
     justify-content: center;
     height: 80vh;
-    width: 100vw;
+    max-width: 100vw;
     background-color: #ffffff;
 }
 
@@ -92,7 +93,7 @@ section{
     color: #ffffff; 
     text-shadow: 2px 2px 8px #000000; 
     font-family: 'Mukta', sans-serif; 
-    margin-top: 30vw;
+    margin-top: 25vw;
 }
 
 /*Início da seção de informações*/

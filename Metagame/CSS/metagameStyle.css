@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*Conteúdo do HEADER*/
+.headerCont{
+    background-color: rgb(255, 255, 255, 0.9);
+    border-bottom-style: groove;
+    font-family: 'Mukta', sans-serif;
+}
+
+.selectBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw;
+    color: gold;
+}
+
+.selectBox a{
+    margin-left: 5vw;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+/*************************************************/
+
+/*Conteúdos do Body*/
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.initialContainer{
+    display: flex;
+    justify-content: center;
+    max-width: 100vw;
+    height: 80vh;
+}
+
+.imgsContainer{
+    max-width: 100vw;
+}
+
+.backImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Imagens/redEyesVsPhoenix.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    width: 90vw;
+    height: 80vh;
+}
+
+.backImgH3{
+    background: #ffffff1a;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    font-family: 'Mukta', sans-serif;
+    color: white;
+    min-height: 80vh;
+    transition: width 3s;
+    text-align: center;
+}
+.backImgH3:hover{
+    width: 100vw;
+}
+h3{
+    padding-top: 15vw;
+}
